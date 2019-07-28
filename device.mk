@@ -124,9 +124,9 @@ PRODUCT_PACKAGES_DEBUG += \
     android.hardware.boot@1.0-impl.recovery \
     bootctl
 
-# Device-specific settings
+# Dirac
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    Dirac
 
 # Display
 PRODUCT_PACKAGES += \

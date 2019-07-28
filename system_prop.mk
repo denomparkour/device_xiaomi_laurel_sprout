@@ -4,6 +4,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     audio.offload.buffer.size.kb=32 \
     audio.offload.gapless.enabled=true \
     audio.offload.video=true \
+    persist.audio.dirac.speaker=true \
     av.offload.enable=true \
     debug.stagefright.ccodec=1 \
     persist.audio.fluence.speaker=true \
