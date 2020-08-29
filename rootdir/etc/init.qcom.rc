@@ -14,7 +14,8 @@ on init
 
     mount none /system/product/etc/audio_policy_configuration.xml /vendor/etc/audio/audio_policy_configuration.xml bind
     mount none /system/product/etc/audio_policy_configuration.xml /vendor/etc/audio_policy_configuration.xml bind
-
+    mount none /system/etc/audio_effects.xml /vendor/etc/audio_effects.xml bind
+    mount none /system/lib/soundfx/libdirac.so /vendor/lib/soundfx/libdirac.so bind
 on boot
     chown system system /dev/input/event2
     chmod 0664 /dev/input/event2
